@@ -1,101 +1,135 @@
 import Image from "next/image";
+import Card from "./ui/cards";
+import './globals.css'
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className="bg-darkgray text-white text-opacity-90 min-h-screen flex flex-col">
+      <div className="flex-grow flex px-4 py-2 justify-center">
+        <div className="flex flex-col lg:flex-row max-w-[1300px] w-full mx-auto sm:px-6 lg:px-8 pt-8 pb-16">
+          
+          {/* 프로필 */}
+          <div className="lg:w-[360px] flex justify-center mb-8 lg:mb-0">
+            <div className="lg:fixed lg:h-screen pt-8 max-lg:px-4 animate-fadeUp">
+              <div className="flex flex-col max-lg:items-center mb-4">
+                <Image 
+                  src="/images/profile.jpg" 
+                  alt="zmo"
+                  className="mb-4 size-24 rounded-lg "
+                  width={200} 
+                  height={200}
+                />
+              </div>
+              <div>
+                <h1 className="font-semibold text-3xl">Jeongmo Lee</h1>
+                <p className="text-neutral-500">zmo</p>
+              </div>
+            </div>
+          </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          {/* 메인 컨텐츠 */}
+          <div className="flex-1 text-darkgray text-opacity-90">
+            <main className="w-full">
+              <div className="flex flex-col gap-4 mx-auto max-w-[810px] pt-12">
+                {/* 소갯말 */}
+                <Card 
+                  title="반갑습니다."
+                  subtitle="저는 이정모라고합니다."
+                  delay={100}
+                >
+                  <div>
+                  현재 아주 열심히 노력중입니다.
+                  
+                  </div>
+                </Card>
+
+                {/* 본문 */}
+                {/* 2열 태그: grid grid-cols-2 */}
+                <div className="mt-2 flex flex-col gap-6">
+                  <Card 
+                  title="" 
+                  delay={200} 
+                  >
+                  <div >
+                    <Card
+                    title="Certifications"
+                    className="mt-2 !bg-black !bg-opacity-80 text-white text-opacity-90">
+                      - Licensed Occupational Therapist, Registered.<br/>
+                      - SQLDeveloper (Database)<br/>
+                      - Certified Specialist in Integrated Functional Movement<br/>
+                      - Certified Psychological Counselor <br/>
+                    </Card>
+
+                      <Card
+                      title="Qualifications"
+                      className="mt-2 !bg-black !bg-opacity-80 text-white text-opacity-90">
+                      - Bachelor of Science in Occupational Therapy<br/>
+                      - Kangwon National University, Korea<br/>
+                      - GPA : 4+/4.5<br/>
+                      - TOEIC : 880+ (2022) <br/>
+                      </Card>
+                  </div>
+                  </Card>
+                  <div className = "mt-2 grid grid-cols-2 gap-6">
+                  <Card 
+                  title="연락처" 
+                  delay={300} 
+                  >
+                    <div className="">
+                      비밀입니다.
+                    </div>
+                  </Card>
+
+                  <Card 
+                  title="Language" 
+
+                  delay={400} 
+                  >
+                    <div>
+                      아직 말도 할 줄 모릅니다.
+
+                    </div>
+                  </Card>
+                  <Card 
+                  title="경력" 
+                  delay={500} 
+                  ><div>
+                    신입 개발자. 하지만 이전 경력은 화려하다 볼 수 있습니다.
+                    </div>
+                    </Card>
+
+                  <Card 
+                  title="기술 스택" 
+                  delay={600} 
+                  ><div>
+                    HTML, CSS JavaScript, React, Next.js, Python, 등 등 
+                    </div>
+                    
+                    </Card>
+                    <div className="md:grid-cols-2 grid gap-6">
+                    <Card title="작은거" delay={700}>
+                      <div>
+                        작은거 함 보여드립니다.
+                      </div>
+                    </Card>
+                    <Card title="작은거2" delay={700}>
+                      <div>
+                        작은거2 함 보여드립니다.
+                      </div>
+                    </Card>
+                    </div>
+                </div>
+              </div>
+              </div>
+            </main>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+      </div>
+
+      {/* Footer */}
+      <footer className="py-8">
+        <p className="text-neutral-400 text-center">© 2024 zmo. All rights reserved.</p>
       </footer>
     </div>
-  );
+  )
 }
