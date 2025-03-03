@@ -6,7 +6,7 @@ export default function TechSection() {
 		<>
 		<Card 
 		title="기술 스택" 
-		delay={600} 
+		delay={300} 
 		>
 			<div>
 			React, Next.js, Python <br />

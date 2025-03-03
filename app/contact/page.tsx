@@ -6,7 +6,7 @@ export default function ContactSection() {
 		<>
 			<Card 
 			title="연락처" 
-			delay={300} 
+			delay={400} 
 			>
 				<div className="">
 				dwa010301@gmail.com 이메일

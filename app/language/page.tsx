@@ -5,7 +5,7 @@ import Card from "../ui/cards";
 export default function LanguageSection() {
 	return (
 		<>
-		<Card title="언어" delay={400} >
+		<Card title="언어" delay={450} >
 			한국어, English
 		</Card>
 		</>

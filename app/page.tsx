@@ -45,8 +45,8 @@ export default function Home() {
                   <LanguageSection />
                   <ExperienceSection />
                   <TrainingSection />
-                  <ProjectSection />
                   </div>
+                  <ProjectSection />
                 </div>
               </div>
             </main>
