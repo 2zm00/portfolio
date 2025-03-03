@@ -23,9 +23,10 @@ const Noto = Noto_Sans_KR({
 export const metadata: Metadata = {
   title: {
     template: '%s | leezmo.dev',
-    default: 'Jeongmo Lee (zmo)',
+    default: 'Jeong Mo Lee (zmo)',
   },
-  description: 'creating .. my own ecosystem',
+  description: '이정모의 개인 포트폴리오 웹사이트 입니다. ',
+  keywords: ' portfolio, web developer, zmo, 2zm00, next.js, react, typescript, tailwindcss, python, django, docker, kubernetes, aws, ci/cd, devops, branding, backend, frontend, fullstack, ',
   icons : {
     icon : '../app/favicon.ico',
   },
