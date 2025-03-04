@@ -16,6 +16,7 @@ export default function ProfileSection() {
 					className="mb-4 size-24 rounded-lg "
 					width={200} 
 					height={200}
+					priority
 					/>
 				</div>
 				<div>
