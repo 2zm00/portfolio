@@ -19,7 +19,7 @@ export default function ProfileSection() {
 					/>
 				</div>
 				<div>
-					<h1 className="font-semibold text-3xl">Jeong Mo Lee</h1>
+					<h1 className="font-semibold text-3xl text-darkgray dark:text-white text-opacity-90">Jeong Mo Lee</h1>
 					<p className="text-neutral-500">zmo</p>
 				</div>
 			</div>

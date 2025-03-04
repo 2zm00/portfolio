@@ -1,7 +1,8 @@
-import '@/app/ui/global.css';
+import '@/app/globals.css';
 import { Metadata } from 'next';
 import "../app/favicon.ico"
 import { Noto_Sans_KR } from "next/font/google"
+import { ThemeProvider } from 'next-themes';
 // import { #localfontname } from "next/font/local" 
 // 로컬폰트 임포트
 
@@ -41,7 +42,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={Noto.className}>
-        {children}
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem={true}>
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

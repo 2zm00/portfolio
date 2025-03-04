@@ -8,7 +8,7 @@ interface BadgeProps {
 
 export default function Badge({ children, className, onClick }: BadgeProps) {
     return (
-		<div className={`align-center rounded-xl my-auto px-2 py-1 pr-2 transition-transform transform hover:scale-105 ${className || ""}`} onClick={onClick}>
+		<div className={`align-center rounded-xl dark:bg-zinc-800 my-auto px-2 py-1 pr-2 transition-transform transform hover:scale-105 ${className || ""}`} onClick={onClick}>
 		{children}
 		</div>
 	);

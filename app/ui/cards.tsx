@@ -17,7 +17,7 @@ interface CardProps {
 
 export default function Card({ title, subtitle, children, className, imageUrl, delay }: CardProps) {
 return (
-    <div className={`bg-white bg-opacity-90 rounded-xl shadow-lg overflow-hidden transition-all duration-300 ease-in-out w-full h-full flex flex-col animate-fadeIn ${className} opacity-0`}
+    <div className={`bg-white dark:bg-lightgray dark:bg-opacity-90 rounded-xl shadow-lg overflow-hidden transition-all duration-300 ease-in-out w-full h-full flex flex-col animate-fadeIn ${className} opacity-0`}
     style={{ animationDelay: `${delay}ms`,
                 animationFillMode: 'forwards'}}>
     {imageUrl && (
