@@ -30,10 +30,10 @@ return (
         </div>
     )}
     <div className="p-6 flex-grow overflow-auto">
-        <h2 className="text-xl font-semibold mb-2">{title}</h2>
+        <h2 className="text-darkgray dark:text-white text-opacity-90 text-xl font-semibold mb-2">{title}</h2>
         {/* 부제목(선택) */}
         {subtitle && (
-            <h3 className='text-xl text-gray-600 mb-2'>{subtitle}</h3>
+            <h3 className='text-xl text-darkgray text-opacity-70 dark:text-white dark:text-opacity-80 mb-2'>{subtitle}</h3>
         )}
         {children}
     </div>
