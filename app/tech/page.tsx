@@ -65,7 +65,7 @@ export default function TechSection() {
 
 			<br/>
 
-			<Badge> <SiOpencv size={20} title="OpenCV" style={{display: "inline-block", marginBottom: "3px"}} color="#5C3EE8"/> OpenCV </Badge>
+			<Badge className="border-2 border-gray-300"> <SiOpencv size={20} title="OpenCV" style={{display: "inline-block", marginBottom: "3px"}} color="#5C3EE8"/> OpenCV </Badge>
 			<Badge className="border-2 border-gray-300"> Pillow </Badge>
 			<Badge className="border-2 border-gray-300"> <SiMediapipe size={20} title="MediaPipe" style={{display: "inline-block", marginBottom: "3px"}} color="#0097A7" /> MediaPipe </Badge>
 
