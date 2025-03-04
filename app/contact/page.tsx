@@ -1,6 +1,6 @@
 "use client";
 
-import Card from "../ui/cards";
+import Card from "../components/common/Cards";
 import { MdEmail } from "react-icons/md";
 import { SiGithub } from "react-icons/si";
 import { SiDiscord } from "react-icons/si";

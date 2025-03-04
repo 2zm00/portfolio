@@ -1,8 +1,9 @@
-import Card from "../ui/cards";
+import Card from "../components/common/Cards";
+import Badge from "../components/common/Badge";
 import { SiReact, SiNextdotjs, SiPython, SiDjango, SiFastapi, SiTypescript, SiTailwindcss, SiJavascript, SiStreamlit , SiDocker, SiKubernetes, SiLinux, SiUbuntu, SiNginx, SiAmazons3, SiMinio, SiMysql, SiPostgresql, SiMongodb, SiPandas, SiNumpy, SiSelenium, SiTensorflow, SiPytorch, SiScikitlearn, SiOpencv, SiMediapipe, SiPlotly, SiGithub, SiNotion, SiSlack } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 import { DiRedis } from "react-icons/di";
-import Badge from "../ui/Badge";
+
 
 
 export default function TechSection() {

@@ -1,4 +1,3 @@
-import Card from "./ui/cards";
 import './globals.css'
 import ProfileSection from "./profile/page";
 import AboutSection from "./about/page";
