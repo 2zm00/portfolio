@@ -1,19 +1,30 @@
+'use client'
+
+import { useState } from "react";
 import Card from "../components/common/Cards";
+import { projects } from "../data/projects";
+import ProjectCard from "../components/project/ProjectCard";
+import ProjectModal from "../components/project/ProjectModal";
 
 
-export default function ProjectSection() {
+const ProjectSection: React.FC = () => {
+	const [selectedProject, setSelectedProject] = useState<any>(null);
+
 	return (
-		<>
-		<Card title="프로젝트" delay={600}>
-			나 와따 - 방명록 프로젝트 (2024.09) <br/>
-			AI 로또 추천  팀 프로젝트 (2024.10) <br/>
-			개인 포트폴리오 프로필 페이지 (2024.12) <br/>
-			Fiton v1 - 피트니스 수업 관리 팀 프로젝트 (2024.12)<br/>
-			Jeongmo.dev - 개인 포트폴리오 홈페이지 (2024.12)<br/>
-			Fiton v2 - 피트니스 수업 관리 팀 프로젝트 (2025.01)<br/>
-		</Card>	
-		</>
-	)
+	<>
+	<Card title="프로젝트" delay={300}>
+		<div className="grid grid-cols-2 gap-4">
+			{projects.map((project) => (
+			<ProjectCard key={project.id} project={project} onClick={setSelectedProject} />
+			))}
+		</div>
+	</Card>
+
+		{selectedProject && (
+		<ProjectModal project={selectedProject} onClose={() => setSelectedProject(null)} />
+		)}
+	</>
+	);
 }
 
-
+export default ProjectSection;

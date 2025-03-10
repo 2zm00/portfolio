@@ -29,9 +29,10 @@ export default function Home() {
                 {/* 본문 */}
                 {/* 2열 태그: grid grid-cols-2 */}
                 <div className="mt-2 flex flex-col gap-6">
-                  <CertificationSection />
-                  <EducationSection />
+                  
                   <TechSection />
+                  <ProjectSection />
+                  
 
                     <div className = "mt-2 grid grid-cols-2 gap-6">
                     <ContactSection />
@@ -39,7 +40,8 @@ export default function Home() {
                     <ExperienceSection />
                     <TrainingSection />
                     </div>
-                  <ProjectSection />
+                    <CertificationSection />
+                    <EducationSection />
                 </div>
               </div>
             </main>

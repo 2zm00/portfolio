@@ -11,7 +11,7 @@ export default function TechSection() {
 		<>
 		<Card 
 		title="기술 스택" 
-		delay={300} 
+		delay={200} 
 		>
 			<div className="flex flex-wrap gap-2">
 			<Badge className="border-2 border-gray-200 dark:border-0"><SiReact size={20} title="React" style={{display: "inline-block", marginBottom: "3px"}} color="#61DAFB" /> React </Badge> 
