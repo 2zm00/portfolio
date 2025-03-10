@@ -3,12 +3,13 @@
 import { useState } from "react";
 import Card from "../components/common/Cards";
 import { projects } from "../data/projects";
+import { Project } from "@/app/types/Project";
 import ProjectCard from "../components/project/ProjectCard";
 import ProjectModal from "../components/project/ProjectModal";
 
 
 const ProjectSection: React.FC = () => {
-	const [selectedProject, setSelectedProject] = useState<any>(null);
+	const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
 	return (
 	<>

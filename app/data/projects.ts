@@ -1,4 +1,6 @@
-export const projects = [
+import { Project } from "../types/Project";
+
+export const projects: Project[] = [
 	{
 		id: 1,
 		title: "Fiton v2 - 팀 프로젝트",

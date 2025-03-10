@@ -1,12 +1,9 @@
 import React from "react";
+import { Project } from "@/app/types/Project";
 
 interface ProjectCardProps {
-  project: {
-    id: number;
-    title: string;
-    image: string;
-  };
-  onClick: (project: any) => void;
+  project: Project;
+  onClick: (project: Project) => void;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project, onClick }) => {
