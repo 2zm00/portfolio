@@ -33,6 +33,8 @@ const config: Config = {
     },
   },
   varinats: [],
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography')
+  ],
 };
 export default config;
