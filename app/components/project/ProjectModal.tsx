@@ -51,7 +51,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
           <p className="text-gray-500">{project.date}</p>
           
           {/* 마크다운 렌더링 */}
-          <div className="prose prose-slate dark:prose-invert max-w-none">
+          <div className="prose prose-slate max-w-none">
             <ReactMarkdown
               remarkPlugins={[remarkGfm]}
               rehypePlugins={[rehypeSanitize]}
