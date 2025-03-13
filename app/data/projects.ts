@@ -15,22 +15,31 @@ export const projects: Project[] = [
 [깃허브 레포지토리](https://github.com/2zm00/fiton_v2) / 
 [WBS](https://docs.google.com/spreadsheets/d/1IAD58a9fe4KGy730ykC-XTgU4SGzh7CECLaEMhFYmRQ/edit?gid=1991800281#gid=1991800281)
 
+<div align="center">
 
 #React #Next.js #Django #FastAPI #postgres #MySQL #Docker #AWS
 
-## 기술 스택 :
+</div>
 
-1. Backend : Python Django RF, FastAPI
-2. Frontend : Next.js React, TailwindCSS, Typescript
-3. DB : PostgreSQL, MySQL
-4. Infrastructure : AWS S3, MinIO, OracleCloud, AWS EC2
-5. CICD : Github Actions, Docker Compose
-6. 웹 서버 : nginx
-7. AI/ML : Langchaing, HugginFace, GoogleMediapipe
+### 기술 스택 
+
+<div align="center">
+
+| 영역         | 기술 스택                                                                 |
+|--------------|--------------------------------------------------------------------------|
+| **프론트엔드** | React, Next.js, Typescript, TailwindCSS   |
+| **백엔드**    |  Django, FastAPI, Python                  |
+| **데이터베이스** |       MySQL, PostgreSQL      |
+| **인프라**       |  AWS S3, MinIO, AWS EC2, OCI                                    |
+| **CI/CD**        | Docker, Github Actions  |
+| **웹 서버**      | Nginx |
+| **AI/ML**        | LangChaing, HugginFace, MediaPipe                               |
+
+</div>
 
 
 ## 02 | 프로젝트 개요 
-  피트니스 산업의 지속적인 성장과 건강에 대한 관심 증가에 따라, 기존 PT 수업관리의 비효율적인 시스템을 개선하고자 헬스케어 수업관리 서비스를 구현했습니다. 기존의 전화나 메시지로 이루어지던 수업 관리를 체계화하여 수강생, 강사, 센터 운영자 모두에게 효율적인 관리 시스템을 제공하고자 합니다.
+피트니스 산업의 지속적인 성장과 건강에 대한 관심 증가에 따라, 기존 PT 수업관리의 비효율적인 시스템을 개선하고자 헬스케어 수업관리 서비스를 구현했습니다. 기존의 전화나 메시지로 이루어지던 수업 관리를 체계화하여 수강생, 강사, 센터 운영자 모두에게 효율적인 관리 시스템을 제공하고자 합니다.
 
  
 ## 03 | 진행한 일 
@@ -61,6 +70,7 @@ export const projects: Project[] = [
 	(배포시간 평균 1800s 에서 600s으로 단축)
  
 ## 05 | 결과물 
+프로젝트 결과물은 [(여기)](https://github.com/2zm00/fiton_v2_zmo)에서 확인하실 수 있습니다.
 - 문서화 작업물 : WBS, FlowChart, ERD, API 연동정의서, Milestone 아키텍처
 - 프론트엔드 : 반응형 디자인
 - 백엔드 : 운동자세분석, 챗봇 사진
