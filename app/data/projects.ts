@@ -8,8 +8,7 @@ export const projects: Project[] = [
 		image: "images/fitonv2.webp",
 		description: `
 ## 01 | 프로젝트 소개 - v1을 발전시킨 헬스케어 프로젝트
-2025.01.17 ~ 2025 02.19 (약 31일간)
-3명이 참여했습니다.
+
 
 [프로젝트 리뷰 레포지토리](https://github.com/2zm00/fiton_v2_zmo) / 
 [깃허브 레포지토리](https://github.com/2zm00/fiton_v2) / 
