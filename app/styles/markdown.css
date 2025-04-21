@@ -1,0 +1,70 @@
+.markdown h1 {
+	@apply text-4xl font-bold;
+	padding-top: 10px;
+  }
+  .markdown h2 {
+	@apply text-xl font-bold mb-[-10px];
+  }
+
+  .markdown h3 {
+	@apply text-xl font-bold ml-2 pb-1;
+	padding-top: 40px;
+  }
+  .markdown h4 {
+	@apply text-lg font-bold;
+	padding-top: 10px;
+  }
+  .markdown p {
+	@apply py-1 ml-4;
+  }
+  .markdown ul {
+	@apply list-inside;
+	margin-top: 10px;
+  }
+  .markdown li {
+	@apply ml-8 pb-[2px];
+	list-style: none;
+	text-indent: -9px;
+  }
+  .markdown li::before {
+	content: '';
+	display: inline-block;
+	margin: 0 6px 4px 0;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: #7e8082;
+  }
+  .markdown hr {
+	margin: 40px 0;
+  }
+  .markdown a {
+	@apply text-blue-500;
+  }
+  .markdown .contact {
+	@apply text-gray-700 text-sm;
+	margin-top: 20px;
+  }
+  .markdown .intro {
+	@apply text-gray-700 text-base;
+	margin-top: 20px;
+  }
+  .markdown .projects {
+	padding-left: 40px;
+  }
+  .markdown .period {
+	@apply text-gray-500 text-sm;
+	line-height: 28px;
+  }
+  .markdown .description {
+	@apply text-gray-700 text-sm;
+  }
+  .markdown .profile > p > img {
+	width: 300px;
+  }
+  @media print {
+	.markdown li {
+	  list-style-type: "·";
+	}
+  }
+  
