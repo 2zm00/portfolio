@@ -1,23 +1,38 @@
 import Card from "../components/common/Cards";
-
-
+import "../styles/markdown.css";
+import ReactMarkdown from "react-markdown";
+import rehypeRaw from 'rehype-raw';
+import remarkGfm from "remark-gfm";
+import rehypeSanitize from "rehype-sanitize";
+import portpolio from "../data/portpolio";
 export default function AboutSection() {
 	return (
 		<>
 			{/* 소갯말 */}
 			<Card 
-			title="안녕하세요! 개발자 이정모입니다."
-			subtitle="저는 제가 하는 일에 진심입니다."
+			title="이정모"
+			subtitle="dwa010301@gmail.com   |   010-4342-2399"
 			delay={100}
 			className="text-darkgray text-opacity-70 dark:text-white dark:text-opacity-70"
 			>
 				<div>
-				진심이 담긴 일이면 끊임없이 새로운 아이디어를 도입하게 되고 더 좋은 경험을 만든다고 믿어요. <br />
-				함께 작업하는 일이면, 혼자 빠르게 가는 것보다 함께 멀리 나아가는 팀의 가치를 믿으며 작업하고 있습니다. <br />
-				모든 경험에는 배울 점이 있습니다.  <br/>
-				직접 경험하고 만들어보며 더 나은, 더 발전할 수 있는 개발자가 되겠습니다. <br />
+				제한된 리소스 환경에서 기획 단계에서부터 개발 경험이 있습니다. <br />
+디바운싱 기법을 활용한 검색 기능으로 API 호출 횟수 70% 감소시켰습니다. <br />
+데이터베이스 연동 및 비교 분석 경험으로 초기 설정시간 83% 단축, 쓰기 처리량 320% 향상시켰습니다. <br />
+또한 사용자 접근성을 고려한 컴포넌트를 통해 체류시간 및 리텐션율을 40% 향상시켰습니다. <br />
+이미지 최적화 툴을 적용하여 30% 리소스를 감소, 개선하여 Lighthouse 50점에서 70점으로 상승시켰습니다. <br />
+프론트엔드 뿐만 아니라 백엔드 학습을 통한 전체 프로세스를 이해를 통해 관련 이슈를 파악할 수 있습니다.
 				
 				</div>
+			</Card>
+
+			<Card className="markdown" title="프로젝트">
+				<ReactMarkdown
+				remarkPlugins={[remarkGfm]}
+				rehypePlugins={[rehypeSanitize, rehypeRaw]}
+				>
+							{portpolio.description}
+							</ReactMarkdown>
 			</Card>
 		</>
 	)

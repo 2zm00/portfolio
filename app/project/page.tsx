@@ -13,7 +13,7 @@ const ProjectSection: React.FC = () => {
 
 	return (
 	<>
-	<Card title="프로젝트" delay={300}>
+	<Card title="프로젝트 상세" delay={300}>
 		<div className="grid grid-cols-2 gap-4">
 			{projects.map((project) => (
 			<ProjectCard key={project.id} project={project} onClick={setSelectedProject} />

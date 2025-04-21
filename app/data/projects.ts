@@ -185,88 +185,88 @@ export const projects: Project[] = [
 
 `
 	},
-	{
-		id: 3,
-		title: "Jeongmo.dev",
-		date: "2024.12.05 ~ 2024.12.12 (약 7일)",
-		image: "images/jeongmodev.webp",
-		description: `
-## 01 | 프로젝트 소개 
+// 	{
+// 		id: 3,
+// 		title: "Jeongmo.dev",
+// 		date: "2024.12.05 ~ 2024.12.12 (약 7일)",
+// 		image: "images/jeongmodev.webp",
+// 		description: `
+// ## 01 | 프로젝트 소개 
 
 
-[깃허브 레포지토리](https://github.com/2zm00/Jeongmo.dev) / 
-[홈페이지 링크](https://jeongmodev.vercel.app/) 
+// [깃허브 레포지토리](https://github.com/2zm00/Jeongmo.dev) / 
+// [홈페이지 링크](https://jeongmodev.vercel.app/) 
 
 
 
-<div align="center">
+// <div align="center">
 
- #Next.js #React #TailwindCSS #Typescript #Wavesurfer.js #MusicFX
-#Three.js #framer-motion #ImageFX #Vercel #Docker
+//  #Next.js #React #TailwindCSS #Typescript #Wavesurfer.js #MusicFX
+// #Three.js #framer-motion #ImageFX #Vercel #Docker
 
-</div>
+// </div>
 
-### 기술 스택 
+// ### 기술 스택 
 
-<div align="center">
+// <div align="center">
 
-| 영역         | 기술 스택                                                                 |
-|--------------|--------------------------------------------------------------------------|
-| **프론트엔드** | Next.js, React, TailwindCSS, Typescript  |
-| **배포** |       Vercel, Docker      |
-| **인프라**       |  Git                                    |
-| **기타**        | Three.js, Wavesurfer.js, framer-motion, MusicFX, ImageFX   |
-
-
-</div>
+// | 영역         | 기술 스택                                                                 |
+// |--------------|--------------------------------------------------------------------------|
+// | **프론트엔드** | Next.js, React, TailwindCSS, Typescript  |
+// | **배포** |       Vercel, Docker      |
+// | **인프라**       |  Git                                    |
+// | **기타**        | Three.js, Wavesurfer.js, framer-motion, MusicFX, ImageFX   |
 
 
-## 02 | 프로젝트 개요 
- 기존의 정적 프로필 페이지를 넘어 놀거리가 있는 공간을 만들고자 기획했습니다. 음악, 3D 그래픽, 실시간 상호작용을 결합해 방문자가 머물며 즐길 수 있는 경험을 제공하는 것이 목표였습니다.
+// </div>
+
+
+// ## 02 | 프로젝트 개요 
+//  기존의 정적 프로필 페이지를 넘어 놀거리가 있는 공간을 만들고자 기획했습니다. 음악, 3D 그래픽, 실시간 상호작용을 결합해 방문자가 머물며 즐길 수 있는 경험을 제공하는 것이 목표였습니다.
  
-## 03 | 진행한 일 
-- 'musicFX'를 활용한 AI 음악 생성 및 플레이리스트를 관리하였습니다.
-- 'Wavesurfer.js'로 음악 재생 및 시각화 기능을 구현하였습니다.
-- 사용자 인터렉션을 위해 Three.js를 활용한 3D 모델링과 마우스 반응형 애니메이션을 적용하였습니다.
-- Framer-motion을 통해  UI 요소에 동적 효과를 추가하였습니다.
-- 저를 소개하는 간단한 프로필과 프로젝트 페이지를 구현하였습니다.
+// ## 03 | 진행한 일 
+// - 'musicFX'를 활용한 AI 음악 생성 및 플레이리스트를 관리하였습니다.
+// - 'Wavesurfer.js'로 음악 재생 및 시각화 기능을 구현하였습니다.
+// - 사용자 인터렉션을 위해 Three.js를 활용한 3D 모델링과 마우스 반응형 애니메이션을 적용하였습니다.
+// - Framer-motion을 통해  UI 요소에 동적 효과를 추가하였습니다.
+// - 저를 소개하는 간단한 프로필과 프로젝트 페이지를 구현하였습니다.
     
 
-## 04 | 과정 
-### 프론트엔드
-- React 컴포넌트 화를 통해 재사용 가능한 컴포넌트를 사용하였습니다.
-- React Hook을 사용하여 상태를 효율적으로 관리하였습니다.
+// ## 04 | 과정 
+// ### 프론트엔드
+// - React 컴포넌트 화를 통해 재사용 가능한 컴포넌트를 사용하였습니다.
+// - React Hook을 사용하여 상태를 효율적으로 관리하였습니다.
 
-### 뮤직플레이어
-- musicFX를 활용하여 '808 base', 'trap beat' 등의 프롬프트를 활용하여 뮤직을 생성하였습니다.
-- Wavesurfer.js를 활용하여 음악 재생 및 시각화 기능을 구현하였습니다.
-- 사용자 브라우저 환경에 따라 배경음악 재생 기능을 추가하였습니다.
+// ### 뮤직플레이어
+// - musicFX를 활용하여 '808 base', 'trap beat' 등의 프롬프트를 활용하여 뮤직을 생성하였습니다.
+// - Wavesurfer.js를 활용하여 음악 재생 및 시각화 기능을 구현하였습니다.
+// - 사용자 브라우저 환경에 따라 배경음악 재생 기능을 추가하였습니다.
 
-### 사용자 인터렉션
-- 기존 Babylon.js에서 Three.js를 사용함으로써 3D Mesh 모델링을 사용하는 컴포넌트를 구현하였습니다.
-- Framer-motion을 통해 UI 요소에 FadeIn 동적 효과를 구현하였습니다.
-- 사용자와의 커뮤니케이션을 위해 간단한 이메일 전송 시스템을 구현하였습니다.
+// ### 사용자 인터렉션
+// - 기존 Babylon.js에서 Three.js를 사용함으로써 3D Mesh 모델링을 사용하는 컴포넌트를 구현하였습니다.
+// - Framer-motion을 통해 UI 요소에 FadeIn 동적 효과를 구현하였습니다.
+// - 사용자와의 커뮤니케이션을 위해 간단한 이메일 전송 시스템을 구현하였습니다.
 
 
-## 05 | 결과물 
-홈페이지 : 이미지
+// ## 05 | 결과물 
+// 홈페이지 : 이미지
 
  
-## 06 | 성장 한 점 
-- React 컴포넌트, React Hook의 중요성을 깨달았습니다.
-- Three.js, Babylon.js 등의 3D 모델링 라이브러리에 대한 경험을 하였습니다.
-- 생성형 AI 모델을 사용하여 프롬프트를 구성하고 그에 따른 결과물을 활용하였습니다.
-- Wavesurfer.js를 활용하여 시각-청각 통합의 사용자 경험을 구현했습니다.
+// ## 06 | 성장 한 점 
+// - React 컴포넌트, React Hook의 중요성을 깨달았습니다.
+// - Three.js, Babylon.js 등의 3D 모델링 라이브러리에 대한 경험을 하였습니다.
+// - 생성형 AI 모델을 사용하여 프롬프트를 구성하고 그에 따른 결과물을 활용하였습니다.
+// - Wavesurfer.js를 활용하여 시각-청각 통합의 사용자 경험을 구현했습니다.
 
 
-## 07 | 나의 역량
-- React 심화 이해 : 커스텀 훅 제작과 상태 관리 효율화 
-- 기술 통합 : Three.js, Wavesurfer.js 등 다양한 라이브러리 적용
-- 라이브러리 활용: 6개 이상의 라이브러리 통합 과정에서 의존성 관리 중요성 체득
-- 사용자 경험 : 사용자 경험을 생각하여 인터랙티브 요소 도입
+// ## 07 | 나의 역량
+// - React 심화 이해 : 커스텀 훅 제작과 상태 관리 효율화 
+// - 기술 통합 : Three.js, Wavesurfer.js 등 다양한 라이브러리 적용
+// - 라이브러리 활용: 6개 이상의 라이브러리 통합 과정에서 의존성 관리 중요성 체득
+// - 사용자 경험 : 사용자 경험을 생각하여 인터랙티브 요소 도입
 
-		`
-	},	
+// 		`
+// 	},	
 	{
 		id: 4,
 		title: "Give a Lotto", 
