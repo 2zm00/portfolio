@@ -1,6 +1,6 @@
 
 
-export const portpolio = {
+export const portfolio = {
 	description: `
 ### Fiton v2
 [기존 MVT 프로젝트를 MSA 아키텍처로 마이그레이션하는 프로젝트(링크)](https://github.com/2zm00/Fiton_v2)
@@ -57,4 +57,4 @@ export const portpolio = {
 
 };
 
-export default portpolio;
+export default portfolio;
