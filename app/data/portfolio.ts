@@ -16,12 +16,11 @@ export const portfolio = {
 - JWT 기반 인증으로 RBAC 구축
 - 모바일 반응형 UI/UX 컴포넌트 설계
 - SSR/CSR 렌더링 적용 
-- LLM 기반 자동화 코드 리뷰 도입 (PR 리뷰 시간 70% 감소)
 - React Hook을 이용한 상태관리
 - 재사용 가능한 컴포넌트 개발
-- 기존 MVT 모델에서 MSA 아키텍처 마이그레이션 기여 (MVT -> Next.js, React, Django, FastAPI)
-- MSA 아키텍처 설계
-
+- 기존 MVT 모델에서 MSA 아키텍처 설계 및 마이그레이션 기여 (MVT -> Next.js, React, Django, FastAPI)
+- Github Actions와 Docker를 활용한 배포 프로세스 구축하여 배포 장애율 66% 감소 (1800s -> 600s)
+- LLM 기반 자동화 코드 리뷰 도입 (PR 리뷰 시간 70% 감소)
 
 ### Fiton v1
 [React, Django를 사용한 헬스케어 수업관리 서비스(링크)](https://github.com/2zm00/Fiton_Project_zmo)
