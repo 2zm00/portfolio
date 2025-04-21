@@ -10,7 +10,7 @@ import { FaLinkedin } from "react-icons/fa";
 export default function ContactSection() {
 	return (
 		<>
-			<Card title="연락처" delay={400} className="align-center rounded-xl dark:bg-lightgray my-auto px-2 py-1 pr-2 transition-transform transform hover:scale-105 flex flex-col gap-4" >
+			<Card title="연락처" delay={500} className="align-center rounded-xl dark:bg-lightgray my-auto px-2 py-1 pr-2 transition-transform transform hover:scale-105 flex flex-col gap-4" >
 				<button onClick={() => window.open("tel:+821043422399", "_blank")} className="flex items-center py-1">
 					<MdPhone size={20} title="Phone" style={{display: "inline-block", marginBottom: "3px", marginRight: "5px"}} /> 
 					010-4342-2399

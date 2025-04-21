@@ -4,7 +4,7 @@ import Card from "../components/common/Cards";
 export default function TrainingSection() {
 	return (
 		<>
-			<Card title="교육" subtitle="멋쟁이 사자처럼" delay={500}>
+			<Card title="교육" subtitle="멋쟁이 사자처럼" delay={700}>
 				
 				실무에서 바로 쓸 수 있는 웹 개발 역량을 갖추기 위해 부트캠프에 참여했습니다.<br/> 실습과 프로젝트 중심 교육을 통해 실제 개발 프로세스를 경험하였습니다.<br/>
 				<br/>

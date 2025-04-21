@@ -11,7 +11,7 @@ export default function TechSection() {
 		<>
 		<Card 
 		title="기술 스택" 
-		delay={200} 
+		delay={300} 
 		>
 			<div className="py-2"> 언어 </div>
 			<div className="flex flex-wrap gap-2 text-dark dark:text-white pb-2">
