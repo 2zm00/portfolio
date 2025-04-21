@@ -10,6 +10,7 @@ import ContactSection from "./contact/page";
 import TrainingSection from "./training/page";
 import ProjectSection from "./project/page";
 import DarkModeToggle from "./components/common/DarkModeToggle";
+import PortfolioSection from './portfolio/page';
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
             <main className="w-full">
               <div className="flex flex-col gap-4 mx-auto max-w-[810px] pt-12">
                 <AboutSection />
+                <PortfolioSection />
 
                 {/* 본문 */}
                 {/* 2열 태그: grid grid-cols-2 */}

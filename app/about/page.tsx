@@ -1,10 +1,5 @@
 import Card from "../components/common/Cards";
-import "../styles/markdown.css";
-import ReactMarkdown from "react-markdown";
-import rehypeRaw from 'rehype-raw';
-import remarkGfm from "remark-gfm";
-import rehypeSanitize from "rehype-sanitize";
-import portpolio from "../data/portpolio";
+
 export default function AboutSection() {
 	return (
 		<>
@@ -26,14 +21,7 @@ export default function AboutSection() {
 				</div>
 			</Card>
 
-			<Card className="markdown" title="프로젝트">
-				<ReactMarkdown
-				remarkPlugins={[remarkGfm]}
-				rehypePlugins={[rehypeSanitize, rehypeRaw]}
-				>
-							{portpolio.description}
-							</ReactMarkdown>
-			</Card>
+			
 		</>
 	)
 }
