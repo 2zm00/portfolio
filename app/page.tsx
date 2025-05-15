@@ -6,7 +6,7 @@ import EducationSection from "./education/page";
 import TechSection from "./tech/page";
 import ContactSection from "./contact/page";
 // import LanguageSection from "./language/page";
-// import ExperienceSection from "./experience/page";
+import ExperienceSection from "./experience/page";
 import TrainingSection from "./training/page";
 import ProjectSection from "./project/page";
 import DarkModeToggle from "./components/common/DarkModeToggle";
@@ -39,11 +39,12 @@ export default function Home() {
                     <div className = "mt-2 grid grid-cols-2 gap-6">
                     <ContactSection />
                     {/* <LanguageSection /> */}
-                    {/* <ExperienceSection /> */}
+                    
                     <CertificationSection />
                     
                     </div>
                     <TrainingSection />
+                    <ExperienceSection />
                     <EducationSection />
                 </div>
               </div>
