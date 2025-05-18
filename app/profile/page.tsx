@@ -1,5 +1,6 @@
 import Image from "next/image";
-import profile from '@/public/images/profile.jpg'
+// import profile from '@/public/images/profile.jpg'
+import profile2 from '@/public/images/profile2.webp'
 
 
 
@@ -11,7 +12,7 @@ export default function ProfileSection() {
 			<div className="lg:fixed lg:h-screen pt-8 max-lg:px-4 animate-fadeUp">
 				<div className="flex flex-col max-lg:items-center mb-4">
 					<Image 
-					src={profile} 
+					src={profile2} 
 					alt="zmo"
 					className="mb-4 size-24 rounded-lg "
 					width={200} 
