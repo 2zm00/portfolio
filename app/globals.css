@@ -54,3 +54,9 @@ body.form1 {
     text-wrap: balance;
   }
 }
+
+@media (max-width: 768px) {
+  html {
+    font-size: 67.5%;
+  }
+}
