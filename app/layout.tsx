@@ -31,6 +31,15 @@ export const metadata: Metadata = {
   icons : {
     icon : '../app/favicon.ico',
   },
+  authors: [{ name: "이정모"}],
+  openGraph: {
+    title: "이정모",
+    description: "포트폴리오 웹사이트 입니다.",
+    url: "http://jeongmo.o-r.kr",
+    images: ['images/opengraph.webp'],
+    locale: "ko-KR",
+    type: "website"
+  }
 };
 
 
