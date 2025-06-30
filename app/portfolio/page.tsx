@@ -4,7 +4,7 @@ import ReactMarkdown from "react-markdown";
 import rehypeRaw from 'rehype-raw';
 import remarkGfm from "remark-gfm";
 import rehypeSanitize from "rehype-sanitize";
-import portfolio from "../data/portfolio";
+import {portfolio2} from "../data/portfolio";
 
 export default function PortfolioSection() {
 	return (
@@ -13,7 +13,7 @@ export default function PortfolioSection() {
 				remarkPlugins={[remarkGfm]}
 				rehypePlugins={[rehypeSanitize, rehypeRaw]}
 				>
-							{portfolio.description}
+							{portfolio2.description}
 							</ReactMarkdown>
 			</Card>
 	)
