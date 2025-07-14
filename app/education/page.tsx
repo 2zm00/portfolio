@@ -8,7 +8,7 @@ export default function EducationSection() {
 			작업치료학과 학사<br/>
 			강원대학교 졸업<br/>
 			학점 : 4+/4.5<br/>
-			TOEIC : 800+ (2022) <br/>
+			TOEIC : 850+ (2022) <br/>
 		</Card>
 		</>
 	)
