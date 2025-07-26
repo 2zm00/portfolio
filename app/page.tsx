@@ -8,7 +8,7 @@ import ContactSection from "./contact/page";
 // import LanguageSection from "./language/page";
 import ExperienceSection from "./experience/page";
 import TrainingSection from "./training/page";
-import ProjectSection from "./project/page";
+// import ProjectSection from "./project/page";
 import DarkModeToggle from "./components/common/DarkModeToggle";
 import PortfolioSection from './portfolio/page';
 
@@ -33,7 +33,7 @@ export default function Home() {
                 <div className="mt-2 flex flex-col gap-6">
                   
                   <TechSection />
-                  <ProjectSection />
+                  {/* <ProjectSection /> */}
                   
 
                     <div className = "mt-2 grid grid-cols-2 gap-6">
@@ -43,8 +43,8 @@ export default function Home() {
                     <CertificationSection />
                     
                     </div>
-                    <TrainingSection />
                     <ExperienceSection />
+                    <TrainingSection />
                     <EducationSection />
                 </div>
               </div>
