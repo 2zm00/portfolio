@@ -19,7 +19,7 @@
 	@apply py-1 ml-4;
   }
   .markdown ul {
-	@apply list-inside text-darkgray;
+	@apply list-inside;
 	/* margin-top: 10px; */
   }
   .markdown li {
